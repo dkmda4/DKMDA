@@ -1,0 +1,52 @@
+ul{
+    margin: 0px;
+    list-style: none;
+    overflow: hidden;
+    background-color: grey;
+    padding: 5px;
+    top: 0px;
+    position: sticky;
+    z-index: 6;
+
+}
+ul li{
+    float: right;
+}
+ul li a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+   
+}
+
+ul li a:hover{
+
+    background-color: rgb(225, 173, 1) ;
+    
+}
+
+.header{
+    height: 50px;
+    background-color: rgb(225, 173, 1);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+}
+
+img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* CSS values and Units
+Absolute length unit: px, mm, cm, in...... */
+/* em, rem, vh, and vw units 16px, 32px, 48px */
+
+/* em = relative to the foont size of the element (20em means 2 times the size of the current font).
+rem = relative to the font size of the root element - in the html doc root is always <html> 16px
+vh = relative to 1% of the height of the viewport
+vw = relative to 1% of the width of the viewport 
+% = relative to the viewport
+viewport = the browser window size */

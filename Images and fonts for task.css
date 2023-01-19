@@ -1,0 +1,92 @@
+body{
+    background: url(../Images/R095.png.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover
+    
+    
+    
+}
+
+
+.div1{
+    
+    font;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    background: url(../Images/macbook-pro-14-and-16_overview__fz0lron5xyuu_og.png);
+    background-size: 300px 300px;
+    border-radius: 50%;
+    margin: 30px;
+    border: 50px;
+    border-color: black;
+
+    /* border radius sets how circular you want the image and 50% is a circle 
+    You can use margin to make sure that images are touching*/
+   
+}
+
+.div2{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    background: url(../Images/apple_ipad-pro-spring21_ipad-pro-magic-keyboard-2up_04202021_big.jpg.large.jpg);
+    background-size: 300px 300px;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.div3{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    background: url(../Images/a6bcd350-a567-11ec-bbe5-b4ba42f855b2.jpeg);
+    background-size: 300px 300px;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.p1{
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+    
+}
+
+.p2{
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.p3{
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.h1{
+    color: white;
+    font-size: 50px;
+    margin: 30px;
+}
+
+.h2{
+    color: white;
+    margin: 30px;
+    font-size: 40px;
+}
+
+.h3{
+    color: white;
+    margin: 30px;
+    font-size: 40px;
+}
+
+.h4{
+    color: white;
+    margin: 30px;
+    font-size: 40px;
+}

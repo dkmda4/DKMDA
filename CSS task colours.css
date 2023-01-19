@@ -1,0 +1,42 @@
+#heading1{
+    color: blue;
+}
+
+#p1{
+
+    color: #ffa500;
+
+}
+
+#heading2{
+   
+    color: rgb( 200, 450, 100
+    )
+}
+
+#p2{
+
+    color: rgba(100, 200, 300, 44);
+}
+
+#heading3{
+
+    color: hsl(50, 75%, 64%);
+}
+
+#p3{
+
+color: hsla(250, 100%, 44%, 20%);
+
+}
+
+#heading4{
+
+    color: rgba(350, 200, 100, 75);
+
+}
+
+#p4{
+
+    color: chocolate;
+}

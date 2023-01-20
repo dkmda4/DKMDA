@@ -1,0 +1,88 @@
+/* display properties:
+display inline: 
+display: -inline block  */
+
+/* position properties:
+postion: fixed;
+ */
+
+ /* using *{ applies changes to all elements on the html document and shuold always be used at the top */
+
+ 
+
+ .div1{
+    width: 300px;
+    height: 300px;
+    background-color: blanchedalmond;
+    top: 100px;
+    left: 200px;
+    z-index: 2;
+ }
+ .div2{
+    width: 200px;
+    height: 200px;
+    background-color:darkgray;
+    z-index: 0;
+    left: 50px;
+   
+    
+ }
+ .div3{
+    
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    z-index: 1;
+   left: 480px;
+  
+   
+ }
+
+ .div1, .div2, .div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ p{
+    display: block;
+ }
+
+ ul{
+    margin: 0px;
+    list-style: none;
+    overflow: hidden;
+    background-color: grey;
+    padding: 5px;
+    top: 0px;
+    position: sticky;
+    z-index: 6;
+    margin-bottom: 15px;
+
+}
+ul li{
+    float: right;
+}
+ul li a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+   
+}
+
+ul li a:hover{
+
+    background-color: blanchedalmond;
+    
+}
+
+.header{
+    height: 50px;
+    background-color: blanchedalmond;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+

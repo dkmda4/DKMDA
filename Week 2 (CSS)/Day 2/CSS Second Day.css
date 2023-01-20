@@ -1,0 +1,69 @@
+/* Fonts in css
+There are 2 types of fonts: 
+1. Web safe fonts - these come preinstalled with operating system.
+2. Web fonts - these are imported (downloaded) from the web */
+
+.p1{
+
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+font-style: italic;
+
+font-size: x-large;
+
+font-weight: 60px;
+
+font-variant: small-caps;
+
+}
+
+.p2{
+
+    font-style: italic;
+
+    font: 30px verdana;
+
+}
+
+.p3{
+
+font: oblique bold 12px georgia;
+
+/* using the font tag you can put all the styles and sizes for the font you want under one tag rather than having loads of separate ones */
+
+}
+
+/* background: define the background effect on the element */
+
+body{ 
+
+background-color: blue;
+background-image: url(../Images/lp-header.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+/* you can stop a background from being repeated by using background-repeat tag and then you can select yes or no */
+/* background-attachment will decide if the imgae will scroll with the website or not */
+/* background-position decideds where the image is placed on the webpage */
+
+
+}
+
+.div1{
+
+    height: 300px;
+    width: 400px;
+    background-color: aquamarine;
+    background: url(../Images/244205-St-Lucia.jpg);
+    background-size: 400px 300px
+    
+    
+
+}
+
+
+
+
+
+

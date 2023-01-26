@@ -1,0 +1,93 @@
+*{
+    margin: 4px;
+}
+
+.flexcontainer{
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.rangerover{
+    height: 300px;
+    width: 400px;
+}
+.sport{
+    height: 300px;
+    width: 400px;
+}
+.velar{
+    height: 300px;
+    width: 400px;
+}
+.evoque{
+    height: 300px;
+    width: 400px;
+}
+.discovery{
+    height: 300px;
+    width: 400px;
+}
+.discoverysport{
+    height: 300px;
+    width: 400px;
+}
+.defender{
+    height: 300px;
+    width: 400px;
+}
+.threeseries{
+    height: 300px;
+    width: 400px;
+}
+.x5{
+    height: 300px;
+    width: 400px;
+}
+.oneseries{
+    height: 300px;
+    width: 400px;
+}
+.x3{
+    height: 300px;
+    width: 400px;
+}
+.x1{
+    height: 300px;
+    width: 400px;
+}
+.fiveseries{
+    height: 300px;
+    width: 400px;
+}
+.x6{
+    height: 300px;
+    width: 400px;
+}
+.sevenseries{
+    height: 300px;
+    width: 400px;
+}
+.fourseries{
+    height: 300px;
+    width: 400px;
+}
+.x7{
+    height: 300px;
+    width: 400px;
+}
+.x4{
+    height: 300px;
+    width: 400px;
+}
+.twoseries{
+    height: 300px;
+    width: 400px;
+}
+.eightseries{
+    height: 300px;
+    width: 400px;
+}

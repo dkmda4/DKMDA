@@ -1,0 +1,38 @@
+*{
+    margin: 5px;
+}
+
+ul{
+    margin: 0px;
+    list-style: none;
+    overflow: hidden;
+    background-color: black;
+    padding: 5px;
+    top: 0px;
+    position: sticky;
+    
+   
+}
+
+ul li{
+    float: right;
+}
+
+ul li a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+   
+}
+
+ul li a:hover{
+
+    background-color: red ;
+    
+}
+
+img{
+    height: 400px;
+
+}

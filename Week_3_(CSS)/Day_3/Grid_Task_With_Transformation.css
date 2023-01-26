@@ -1,0 +1,61 @@
+*{
+    margin: 2px;
+    padding: 0px;
+}
+
+.container{
+    background-color: grey;
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'menu main right'
+    'menu footer footer';
+    height: auto;
+    grid-template-rows: 100px auto 300px;
+    grid-template-columns: 35% 35% 30%;
+    text-align: center;
+}
+.header{
+    background-color: blue;
+    grid-area: header;
+}
+.menu{
+    background-color: aqua;
+    grid-area: menu;
+}
+.main{
+    background-color: aquamarine;
+    grid-area: main;
+}
+.right{
+    background-color: cadetblue;
+    grid-area: right;
+}
+.footer{
+    background-color: darkblue;
+    grid-area: footer;
+}
+.img1{
+    height: 200px;
+    width: 300px;
+}
+.img2{
+    height: 200px;
+    width: 300px;
+}
+.img3{
+    height: 200px;
+    width: 300px;
+}
+.img1:hover{
+    transform: translate(40px);
+    transition: transform 4s;
+}
+.img2:hover{
+    transform: skewX(20deg);
+    transition: transform 4s;
+}
+.img3:hover{
+    transform: rotate(180deg);
+    transition: transform 4s;
+}

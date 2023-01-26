@@ -1,0 +1,38 @@
+/* local and global variables 
+use var() to use the variable*/
+
+/* when using the variable function putting it in html section makes changes to the whle document but putting it within another tag fixes it to that specific tag */
+
+html{
+    --redcolor: red;
+    --textsize: 25px;
+    --blue: blue;
+    --text-align: center;
+    --noborder: 5px solid;
+}
+
+body{
+    background-color: var(--redcolor);
+    font-size: var(--textsize);
+}
+
+.p1{
+    --textsize2:40px;
+
+    font-size:var(--textsize2);
+}
+
+.p2{
+    font-size: var(--textsize2);
+
+    color: var(--blue);
+
+    text-align: var(--text-align);
+}
+
+#submit{
+    background-color: var(--blue);
+    border: var(--noborder);
+    height: 40px;
+    width: 100px;
+}

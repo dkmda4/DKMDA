@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: grey;
+    min-height: 100%;
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'nav nav nav'
+    'mainpic mainpic mainpic'
+    'content content vnav'
+    'footer footer footer';
+
+    grid-template-rows: 100px 50px 300px 100px 100px;
+    grid-template-columns: 35% 35% 30%;
+}
+
+.header{
+    background-color: blanchedalmond;
+    grid-area: header;
+}
+.nav{
+    background-color:darkorange;
+    grid-area: nav;
+}
+.pic{
+    background-color: gold;
+    grid-area: mainpic;
+}
+.content{
+    background-color: darkorange;
+    grid-area: content;
+}
+.vnav{
+    background-color: grey;
+}
+.footer{
+    background-color: goldenrod;
+    grid-area: footer;
+}
+
+/* css transform property:
+used the move, rotate or skew a html element */
+

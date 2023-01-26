@@ -1,0 +1,95 @@
+.flexcontainer{
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    flex-direction: row;
+    background-color: green;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flexcontainer .div1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.flexcontainer .div2{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.flexcontainer .div3{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.flexcontainer .div4{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.flexcontainer .div5{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.flexcontainer .div2{
+    order: 5;
+}
+
+.gridcontainer{
+    display: grid;
+    background-color: blanchedalmond;
+}
+
+.grid-container {
+    background-color: aqua;
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* gap: 2rem; */
+    /* max-width: 1100px; */
+    /* grid-template-areas: none; */
+    gap: 2rem;
+    grid-template-areas: 'header header header header'
+      'nav nav nav nav'
+      'main-picture main-picture main-picture main-picture'
+      'vertical-nav content content content'
+      'vertical-nav footer footer footer';
+  }
+  
+
+  .grid-container div {
+    /* height: 200px;
+    width: 200px; */
+    border: 1px solid black;
+   
+  }
+   
+  .grid-container .div6{
+    grid-area: header;
+    text-align: center;
+  }
+   
+  .grid-container .div7{
+    grid-area: nav;
+  }
+   
+  .grid-container .div8{
+    grid-area: main-picture;
+  }
+   
+  .grid-container .div9{
+    grid-area: vertical-nav;
+  }
+   
+  .grid-container .div10{
+    grid-area: content;
+  }
+   
+  .grid-container .div6{
+    grid-area: footer;
+    text-align: center;
+  }

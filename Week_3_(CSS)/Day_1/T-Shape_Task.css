@@ -1,0 +1,50 @@
+img{
+    height: 400px;
+    width: 400px;
+    animation-duration: 10s;
+    animation-name: stlucia;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+@keyframes stlucia{
+    0%{
+        left: 0px;
+    }
+    20%{
+        top: 0px;
+        left: 800px;
+    }
+    40%{
+        top: 0px;
+        left: 400px;
+    }
+    60%{
+        left: 400px;
+        top: 400px;
+    }
+    80%{
+        top: 0px;
+        left: 400px;
+    }
+    100%{
+        left: 0px;
+    }
+
+}
+
+#button{
+
+    height: 50px;
+    width: 100px;
+    background-color: grey;
+    transition: width 2s, background-color 4s ;
+    border-radius: 20%;
+    font-size: 10px;
+}
+#button:hover{
+    width: 300px;
+    height: 150px;
+    background-color: blanchedalmond;
+    font-size: 30px;
+    
+}

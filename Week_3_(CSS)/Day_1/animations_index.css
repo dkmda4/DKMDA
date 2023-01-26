@@ -1,0 +1,55 @@
+
+
+
+.div1{
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+    margin-top: 10px;
+    animation-name: animationpractice;
+    animation-duration: 4s;
+}
+
+@keyframes animationpractice{
+    from{background-color: grey;}
+    to{background-color: blanchedalmond;}
+}
+
+.div2{
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    position: relative;
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes moving{
+    0%{
+        background-color: black
+        color: darkgoldenrod;
+        left: 0px;
+    }
+    20%{
+        background-color: orange;
+        color: red;
+        left: 200px;
+        top: 0px;
+    }
+    50%{
+        background-color: blue;
+        color: aqua;
+        left: 200px;
+        top: 100px;
+    }
+    100%{
+        background-color: green;
+        color: yellow;
+        left: 0px;
+    }
+    
+}
+

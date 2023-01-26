@@ -1,0 +1,108 @@
+
+
+html{
+
+    --color1: lightblue;
+    --color2: aqua;
+    --color3: royalblue;
+    --color4: darkblue;
+    --color5: red;
+    --color6: green;
+    --color7: blue;
+    --color8: yellow;
+
+}
+
+.div1{
+    height: 200px;
+    width: 200px;
+    background-color: var(--color1);
+    animation-name: square;
+    animation-duration: 8s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+@keyframes square{
+    0%{
+        background-color: var(--color1);
+        left:0px;
+    }
+    25%{
+        background-color: var(--color2);
+        left: 100px;
+        top: 0px;
+    }
+    50%{
+        background-color: var(--color3);
+        left: 100px;
+        top: 100px;
+    }
+    75%{
+        background-color: var(--color4);
+        left: 0px;
+        top: 100px;
+        
+    }
+    100%{
+        background-color: var(--color1);
+        top: 0px;
+        left: 0px;
+    }
+
+        
+}
+
+
+
+ .div2{
+        height: 200px;
+        width: 200px;
+        background-color: var(--color5);
+        animation-name: square2;
+        animation-duration: 8s;
+        position: relative;
+        animation-iteration-count: infinite;
+    }
+    @keyframes square2{
+        0%{
+            background-color: var(--color5);
+            left:0px;
+            top: 0px;
+            
+        }
+        25%{
+            background-color: var(--color6);
+            left: 500px;
+            top: 0px;
+            height: 300px;
+            width: 300px;
+        }
+        50%{
+            background-color: var(--color7);
+            left: 500px;
+            top: 200px;
+            height: 400px;
+            width: 400px;
+        }
+        75%{
+            background-color: var(--color8);
+            left: 0px;
+            top: 200px;
+            height: 300px;
+            width: 300px;
+
+        }
+        100%{
+            background-color: var(--color5);
+            left: 0px;
+            top: 0px;
+            height: 200px;
+            width: 200px;
+            
+        }
+    
+            
+    }
+    
+
+

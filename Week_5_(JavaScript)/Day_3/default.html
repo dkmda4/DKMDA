@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <script src="script\timers.js">
+            
+        </script>
+        
+        <script src="script\events.js">
+            
+        </script>
+         </head>
+
+    <body>
+
+        <form>
+            <input id="answer" type="text"/>
+            <input id="submit" type="button" value="Submit"></button>
+
+
+            <script>
+                setInterval(myTimer, 1000);
+                 addEventByID(document.getElementById("submit"), "click", timerStop.bind(null,"5"));
+
+                 addEventByID(document.getElementById("submit"), "mouseEnter",timerStop.bind(null,"5"))
+
+                 document.getElementById("submit").addEventListener('click', timerStop.bind(null,"5"))
+
+            
+            </script>
+
+
+
+            
+        </form>
+        <p id="demo"></p>
+
+    </body>
+
+</html>

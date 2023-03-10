@@ -1,0 +1,122 @@
+*{
+    margin: 5px;
+}
+
+.container{
+  display: grid;
+   /* grid-template-columns: 30% 30% 30%; */
+   /* grid-template-rows: 20% 20% 20% 20% 20%; */
+   grid-template-areas: 
+  'header       header      header'
+  'pContainer sContainer cContainer'
+  'pContainer sContainer cContainer'
+  'pContainer sContainer cContainer'
+  'pContainer sContainer cContainer';
+
+background-color: grey;
+height: 99vh;
+width: 99vw;
+}
+
+#title{
+    grid-area: header;
+    background-color: aqua;
+    width: 99%;
+    height: 35%;
+    text-align: center;
+}
+
+#parentDiv{
+    display: flex;
+    height: 80vh;
+    width: 80vw;
+   
+}
+
+#pContainer{
+    grid-area: pContainer;
+    background-color: blue;
+    height: auto;
+    width: 33%;
+    margin-right: 30px;
+    
+}
+
+#pName{
+    height: 10%;
+    background-color: brown;
+}
+
+#pImage{
+    height: 50%;
+    background-color: orangered;
+}
+
+#pStats{
+    height: 40%;
+    background-color: yellow;
+}
+
+#sContainer{
+    grid-area: sContainer;
+    background-color: rgb(86, 145, 185);
+    height: auto;
+    width: 33%;
+}
+
+#scoreboard{
+    height: 20%;
+    width: 99%;
+    background-color: blanchedalmond;
+}
+
+#pScore{
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+}
+
+#cScore{
+    height: 100px;
+    width: 100px;
+    background-color: darkmagenta;
+    display: inline-block;
+    margin-left: 160px;
+    position: relative;
+}
+
+#category{
+    height: 30%;
+    background-color: forestgreen;
+    margin-top: 50px;
+}
+
+#cContainer{
+    grid-area: cContainer;
+    background-color: rgb(107, 86, 185);
+    height: auto;
+    width: 33%;
+}
+
+#cName{
+    height: 10%;
+    background-color: azure;
+}
+
+#cImage{
+    height: 50%;
+    background-color: salmon;
+}
+
+#cStats{
+    height: 40%;
+    background-color: teal;
+}
+
+#button{
+    height: 300px;
+    width: 150px;
+}

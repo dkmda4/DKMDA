@@ -1,0 +1,116 @@
+*{
+    margin: 10px;
+}
+
+.container{
+
+    height: 800px;
+    width: 1450px;
+    display: flex;
+    background-color: aqua;
+    grid-template-areas: 
+    'header header header'
+    'playerCard score computerCard'
+    'playerCard pscore cScore computerCard'
+    'playerImage category computerImage'
+    'statsP play statsC';
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#header{
+    height: 50px;
+    width: 1000px;
+    background-color: blueviolet;
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+}
+
+#playerCard{
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    display: inline;
+    justify-content: center;
+    
+}
+
+#computerCard{
+    height: 500px;
+    width: 500px;
+    background-color: chartreuse;
+    display: inline;
+    justify-content: center;
+}
+
+#playerName{
+    height: 50px;
+    width: 100px;
+    background-color: brown;
+    margin-top: 5px;
+    
+}
+
+#computerName{
+    height: 50px;
+    width: 100px;
+    background-color: cornflowerblue;
+    margin-top: 5px;
+}
+
+#playerImage{
+    height: 300px;
+    width: 300px;
+    background-color: darkorange;
+}
+
+#computerImage{
+    height: 300px;
+    width: 300px;
+    background-color: darkorange;
+}
+
+#statsP{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+}
+
+#statsC{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+}
+
+#score{
+    height: 100px;
+    width: 120px;
+    background-color: darkolivegreen;
+}
+
+#pScore{
+    height: 50px;
+    width: 50px;
+    background-color: gold;
+}
+
+#cScore{
+    height: 50px;
+    width: 50px;
+    background-color: gold;
+}
+
+#category{
+    height: 200px;
+    width: 200px;
+    background-color: fuchsia;
+}
+
+#play{
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+}

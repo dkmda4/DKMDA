@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2> JavaScript HTML DOM</h2>
+
+    <div>
+        <p id="demo"></p>
+        <p onclick= "this.style.backgroundColor = 'blue'"> What happens when you click here? </b> method.</p>
+    </div>
+
+    <div id="main">
+        <p onclick="this.innerHTML = 'change'"> Playing with elements</p>
+    </div>
+
+    <script>
+        document.getElementById("demo").innerHTML = "Test";
+        document.getElementById("demo").style.color = "orange"; 
+    </script>
+    
+</body>
+</html>

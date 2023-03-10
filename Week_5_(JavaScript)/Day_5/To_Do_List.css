@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'search search search'
+    'content content tickbox';
+    background-color: rgb(120, 0, 0);
+    height: 100%;
+    width: 60%;
+   
+}
+
+#header {
+    background-color: rgb(120, 0, 0);
+    height: 100px;
+    width: 400px;
+    
+}
+
+#search {
+    background-color: rgb(193, 18, 31);
+    height: 100px;
+    width: 400px;
+}
+
+
+    
